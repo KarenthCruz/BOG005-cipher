@@ -1,0 +1,143 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background: #0472ec;
+    margin: 0;
+    padding: 15px;
+    color: aliceblue;
+}
+
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+header{
+    color: aliceblue;
+    background-color: #0472ec;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 50px;
+    width: 50px;
+    margin-right: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    font-weight: 600;
+    padding-right: 20px;
+}
+
+nav a:hover{
+    color:white;
+
+}
+
+article{
+    text-align: center;
+}
+
+.User{
+    width: 221px;
+    height: 23px;
+    border-radius: 5px;
+    border-color: white;
+    border: white;
+    
+}
+
+.inputStyle{
+    width: 270px;
+    height: 40px;
+    border-radius: 5px;
+    border-color: white;
+    border: aliceblue;
+    padding-right: 10px;
+}
+
+.btn{
+    width: 90px;
+    height: 27px;
+    color: white;
+    border-radius: 25px;
+    align-items: center;
+    background-color: #0b3d73;
+    border: white;
+    padding-right: 10px;
+}
+
+.key{
+    width: 80px;
+    height: 25px;
+    border-radius: 25px;
+    text-align: center;
+    border: white;
+    background-color: #dde9f1;
+    padding-right: 10px;
+}
+
+.container{
+    width: 1200px;
+    height: 500px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+
+.boxUser{
+    width: 300px;
+    height: 350px;
+    margin: 10px;
+    padding: 10px;
+    padding-left: 40px;
+    border-radius: 10px;
+    line-height: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: #085ec1;
+    
+}
+
+.boxCipher{
+    width: 300px;
+    height: 400px;
+    margin: 5px;
+    padding: 10px;
+    line-height: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.boxDecode{
+    width: 300px;
+    height: 400px;
+    margin: 5px;
+    padding: 10px;
+    line-height: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+address{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    justify-content: center;
+}
+

@@ -2,13 +2,87 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Caesar Cipher</title>
+    <meta name="Description" content="Caesar Cipher">
+    <meta name="author" content="Karenth Cruz">
+    <title>PasswordCipher</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css" />
   </head>
+
   <body>
-    <div id="root">
-      <h1>Hello world!</h1>
+    <header> 
+      <div class="logo">
+      <img src="https://1password.com/img/redesign/logo-light-bg.svg" alt="LogoPasswordCipher">
+      <h1>PasswordCipher</h1>
+      </div>
+    
+      <nav>
+      <ul>
+        <a href="#">Inicio</a>
+        <a href="#contact">Contacto</a>
+      </ul>
+      </nav>
+    </header>
+      
+    <div id="Welcome">
+      <article>
+        <h2>PROTEGE TUS CONTRASEÑAS</h2><br>
+        <div>
+          <p>PasswordCipher es la herramienta más fácil y segura para cifrar tus contraseñas. Cifra y comparte tus contraseñas de manera segura.</p><br>
+        </div>
+      </article>
     </div>
+
+    <div class="container">
+
+      <section class="boxUser"><br>
+        <p>¿Deseas guardar tu información?</p>
+        <p>Ingresa nombre y contraseña</p><br>
+        <input class="User" type="text" id="name" placeholder="Nombre"> <br><br>
+        <input class="User" type="text" id="password" placeholder="Contraseña"><br><br>
+        <button class="btn" id="userSend">Enviar</button><br>
+        <p id="userName"></p>
+      </section>
+   
+      <section class="boxCipher">
+        <h3>CIFRA TU CONTRASEÑA</h3>
+        <p>Contraseña a Cifrar</p>
+        <input class="inputStyle" type="text" id="forEncryption"><br>
+        <p>Clave <small>(1 a 26)</small></p>
+        <input class="key" type="text" id="loockCipher" placeholder="Número"><br>
+        <button class="btn" id="infoCipher">Codificar</button><br>
+        <p>Contraseña Cifrada</p>
+        <input class="inputStyle" type="text" id="codeMessage"><br>
+      </section>
+    
+      <section class="boxDecode">
+        <h3>DESCIFRA TU CONTRASEÑA</h3>
+        <p>Contraseña a Descifrar</p>
+        <input class="inputStyle" type="text" id="forDecode"><br>
+        <p>Clave <small>(1 a 26)</small></p>
+        <input class="key" type="text" id="loockCipher2" placeholder="Número"><br>
+        <button class="btn" id="infoDecode">Decodificar</button><br>
+        <p>Contraseña Descifrada</p>
+        <input class="inputStyle" type="text" id="textDecode"><br><br>
+      </section>
+    
+    </div>
+    <br class="borra">
+    
+    <div id="contact">
+      <address>
+      <h4>CONTACTO</h4>
+      <p>+57 3044809491</p>
+      <p>servicioalcliente@passwordcipher.com</p><br><br>
+      </address>
+    </div>
+    
+    <footer>
+      <p><small>© 2022 PasswordCipher. All rights reserved.</small></p>
+    </footer>
+
     <script src="index.js" type="module"></script>
   </body>
 </html>
