@@ -18,6 +18,7 @@ btnCoder.addEventListener("click", getEncrypt);
 
 function getEncrypt(){
     const inputText= document.getElementById("forEncryption");
+    inputText.value= inputText.value.toUpperCase(); 
     const inputKeyCode= document.getElementById("loockCipher");
     const textEncryption= cipher.encode(Number(inputKeyCode.value), inputText.value);
     const inputAnswer= document.getElementById("codeMessage");
@@ -28,9 +29,10 @@ const btnDecoder= document.getElementById("infoDecode");
 btnDecoder.addEventListener("click", getDecrypt)
 
 function getDecrypt(){
-    const inpuntEncripted= document.getElementById("forDecode");
+    const inputEncripted= document.getElementById("forDecode");
+    inputEncripted.value= inputEncripted.value.toUpperCase();
     const inputKeyDecode= document.getElementById("loockCipher2");
-    const textDecripted= cipher.decode(Number(inputKeyDecode.value), inpuntEncripted.value);
+    const textDecripted= cipher.decode(Number(inputKeyDecode.value), inputEncripted.value);
     const inputAnswer2= document.getElementById("textDecode");
     inputAnswer2.value= textDecripted;
 }
