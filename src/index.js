@@ -6,11 +6,12 @@ nameUser.addEventListener("click", getName);
 function getName(){
     const inputName= document.getElementById("name");
     const inputPassword= document.getElementById("password");
+    const namePrinter= document.getElementById("userName");
     localStorage.setItem("username", inputName.value);
     localStorage.setItem("userpassword", inputName.value);
-    inputName.innerHTML= "¡Hola, bienvenida " + inputName.value + "!"
-    inputName.value=""
-    inputPassword.value=""
+    namePrinter.innerHTML= "¡Hola, " + inputName.value + " bienvenida!";
+    inputName.value="";
+    inputPassword.value="";
 }
 
 const btnCoder= document.getElementById("infoCipher");
