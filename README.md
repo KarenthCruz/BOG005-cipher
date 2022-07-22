@@ -28,7 +28,6 @@ https://1password.com/es/
 *Maqueta realizada
 https://www.canva.com/design/DAFGThO6-yw/MjRmmF1YdII7s6AH6x8LUA/view?utm_content=DAFGThO6-yw&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
 
-
 4. Descarga e instalación de archivos
 - Se realiza la descarga siguiendo el paso a paso del Readme del proyecto.
 - Investigación y aplicación de Git y Github para el proyeto
@@ -36,25 +35,25 @@ https://www.canva.com/design/DAFGThO6-yw/MjRmmF1YdII7s6AH6x8LUA/view?utm_content
 
 5. Desarrollo
 
-5.1. Seudo Código Cifrado Cesar
+ 5.1. Seudo Código Cifrado Cesar
 - Investigación sobre cifado cesar y ejemplos del mismo. 
 - Con la información se realiza una función provisional en javascript para el cifrado de texto
 
-5.2. Seudo Código Descifrado
+ 5.2. Seudo Código Descifrado
 - Investigación y ayudantías para el desarrollo de la función que descifra el texto ya cifrado
 
-5.3. Implementación de HTML
+ 5.3. Implementación de HTML
 - Incorporación de estructura en HTML
 - Uso de HTML semático
 - Input (name, password, texto a cifrar, texto cifrado)
 - Botones (enviar, cifrar y descifrar)
 
-5.4. Implementación de estilo en CSS
+ 5.4. Implementación de estilo en CSS
 - Investigación de CSS 
 - Aplicación de estilos y propiedades para emular la maqueta diseñada
 - Aprendizaje y aplicación de flex box y propiedades para dar orden a los elementos
 
-5.5. Funcionalidad
+ 5.5. Funcionalidad
 - Se toma las funciones para guardar localmente el nombre y la contraseña, se muestra un saludo. A futuro esa información se usaríara para guardar las contraseñas cifradas por el usuario.
 - Se toman el pseudo código de cifrado y descifrado y se introduce en Cipher.js
 - Enlace de los inpunt (string y offset) y botón "Cifrar", con la función de cifrado.
@@ -62,14 +61,14 @@ https://www.canva.com/design/DAFGThO6-yw/MjRmmF1YdII7s6AH6x8LUA/view?utm_content
 - Enlace de los inpunt (string y offset) y botón "Descifrar", con la función de Descifrado.
 - Se muestra resultado de la función descifrar en input de texto descrifrado.
 
-5.6. Test
+ 5.6. Test
 - Una vez lograda la funcionalidad se corren los test del boilerplate (Pasan 5 de 7 test).
 - Se desarrolla un condicional para pasar el test de validación
 - Una vez pasados los test, se procede a construir el readme
 
-5.7. Readme
+ 5.7. Readme
 - Por último, la descripción del proyecto y los pasos seguidos en el mismo
 
-5.8. Publicación 
+ 5.8. Publicación 
 - Se actualizan los cambios en Github y se procede a publicar en Github pages
 
