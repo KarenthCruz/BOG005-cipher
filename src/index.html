@@ -39,37 +39,32 @@
 
   <!-- sección contenedor para cajas usuario, cifrado y descifrado, para usar flexbox -->
   <div class="container">
-    <!-- Caja de Usuario -->
     <section class="boxUser">
       <p><small>¿Deseas guardar tu información?</small></p>
       <p><small>Ingresa nombre y contraseña</small></p><br>
       <input class="User" type="text" id="name" placeholder="Nombre"><br><br>
-      <input class="User" type="text" id="password" placeholder="Contraseña"><br><br>
+      <input class="User" type="password" id="password" placeholder="Contraseña"><br><br>
       <button class="btn" id="userSend">Enviar</button><br>
       <p id="userName"></p>
     </section>
 
     <section class="boxCipher">
-      <!-- Caja de Cifrado -->
       <h3>CIFRA TU CONTRASEÑA</h3>
       <p>Contraseña a Cifrar</p>
       <input class="inputStyle" type="text" style="text-transform:uppercase" id="forEncryption"><br>
       <p>Clave <small>(de cifrado)</small></p>
       <input class="key" type="number" id="loockCipher" placeholder="Número"><br>
-      <!-- botón para cifrar -->
       <button class="btn" id="infoCipher">Codificar</button><br>
       <p>Contraseña Cifrada</p>
       <input class="inputStyle" type="text" id="codeMessage"><br>
     </section>
 
     <section class="boxDecode">
-      <!-- Caja de Descifrado -->
       <h3>DESCIFRA TU CONTRASEÑA</h3>
       <p>Contraseña a Descifrar</p>
       <input class="inputStyle" type="text" style="text-transform:uppercase" id="forDecode"><br>
       <p>Clave <small>(de descifrado)</small></p>
       <input class="key" type="number" id="loockCipher2" placeholder="Número"><br>
-      <!-- botón para Descifrar -->
       <button class="btn" id="infoDecode">Decodificar</button><br>
       <p>Contraseña Descifrada</p>
       <input class="inputStyle" type="text" id="textDecode"><br><br>

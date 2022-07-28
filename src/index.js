@@ -1,9 +1,9 @@
 import cipher from './cipher.js';
 
-// botón información del usuario //
+// información del usuario //
 const nameUser = document.getElementById("userSend");
 nameUser.addEventListener("click", getName);
-// información del usuario //
+
 function getName() {
     const inputName = document.getElementById("name");
     const inputPassword = document.getElementById("password");
@@ -14,10 +14,10 @@ function getName() {
     inputName.value = "";
     inputPassword.value = "";
 }
-// botón información a cifrar //
+// información a cifrar //
 const btnCoder = document.getElementById("infoCipher");
 btnCoder.addEventListener("click", getEncrypt);
-// input de texto a cifrar y clave, input donde se muestra el cifrado //
+
 function getEncrypt() {
     const inputText = document.getElementById("forEncryption");
     inputText.value = inputText.value.toUpperCase();
@@ -26,10 +26,10 @@ function getEncrypt() {
     const inputAnswer = document.getElementById("codeMessage");
     inputAnswer.value = textEncryption;
 }
-// botón información a descifrar //
+// información a descifrar //
 const btnDecoder = document.getElementById("infoDecode");
 btnDecoder.addEventListener("click", getDecrypt)
-// input de texto a descifrar y clave, input donde se muestra el descifrado //
+
 function getDecrypt() {
     const inputEncripted = document.getElementById("forDecode");
     inputEncripted.value = inputEncripted.value.toUpperCase();
